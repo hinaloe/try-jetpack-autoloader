@@ -1,0 +1,22 @@
+{
+    "name": "hinaloe/wp-my-autoload-sample",
+    "license": "GPL-2.0-or-Later",
+    "authors": [
+        {
+            "name": "hina",
+            "email": "hina@hinaloe.net"
+        }
+    ],
+    "require": {
+        "automattic/jetpack-status": "@dev"
+    },
+    "require-dev": {
+        "automattic/jetpack-autoloader": "^1"
+    },
+    "repositories": [
+      {
+        "type": "path",
+        "url": "./packages/*"
+      }
+    ]
+}
